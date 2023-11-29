@@ -80,7 +80,9 @@ const Modal: React.FC<ModalProps> = ({
                                         onClick={handleClose}>
                                     <IoMdClose size={18}/>
                                 </button>
-
+                                <div className="text-lg font-semibold">
+                                    {title}
+                                </div>
                             </div>
                         </div>
                     </div>
